@@ -1,0 +1,21 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="import" href="/mnt/sysassets/system_widget.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/text_button.defs" />
+  </defs>
+  
+  <symbol id="countdown">
+    <text id="time-left" x="50%" y = "50%" text-anchor="middle" fill="white" font-size="60" font-family="System-Bold" text-length="32"/>
+    <arc id="progress-bar" x="50%-90" y="50%-90-20" width="180" height="180" fill="#B74949" arc-width="8" start-angle="0" />
+    <!--arc id="external-line" x="50%-90" y="50%-90-20" width="180" height="180" fill="crimson" arc-width="1" start-angle="0" sweep-angle="360" /-->
+    <!--arc id="internal-line" x="50%-83" y="50%-83-20" width="166" height="166" fill="crimson" arc-width="1" start-angle="0" sweep-angle="360" /-->
+    <arc id="progress-bar-middle" x="50%-86" y="50%-86-20" width="172" height="172" fill="#B74949" arc-width="1" start-angle="0" sweep-angle="360" />
+  </symbol>
+  
+  <symbol id="pause-play-button">
+    <circle id="pause-play-bg" cx="50%" cy="50%" r="90" fill="#B74949" />
+    <text id="pause-play-icon" x="50%" y = "50%" text-anchor="middle" fill="white" font-size="60" font-family="System-Bold" text-length="32">▶</text>
+  </symbol>
+</svg>
+

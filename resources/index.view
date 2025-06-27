@@ -1,0 +1,32 @@
+<svg class="background">
+  <use id="countdown" href="#countdown" x="0" y="-20"/>
+<!--
+  <use id="startButton" href="#text-button" class="text-button secondary application-fill" />
+-->
+  <!-- Background circle for ring -->
+  <!-- Foreground ring that will animate
+  <circle
+  id="progress-ring"
+  cx="175"
+  cy="175"
+  r="70"
+  stroke="deepskyblue"
+  stroke-width="8"
+  fill="none"
+  stroke-dasharray="440"
+  stroke-dashoffset="440"
+  transform="rotate(-90 175 175)" />
+  -->
+
+  <!-- Icon/text in center
+  <text
+  id="circle-icon"
+  x="175"
+  y="180"
+  text-anchor="middle"
+  font-size="32"
+  fill="white">
+  ▶
+  </text>
+   -->
+</svg>
