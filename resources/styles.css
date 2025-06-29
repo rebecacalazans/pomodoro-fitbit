@@ -10,6 +10,18 @@
   fill: fb-black;
 }
 
+.play-button #image {
+  href: "icons/play.png"
+}
+
+.pause-button #image {
+  href: "icons/pause.png";
+}
+
+.skip-button #image {
+  href: "icons/skip.png"
+}
+
 #startButton #text {
   text-buffer: "Start";
 }
