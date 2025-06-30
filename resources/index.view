@@ -1,7 +1,18 @@
 <svg class="background">
-  <rect id="background" x="0" y="0" width="100%" height="100%" fill="#B74949"/>
-  <use id="countdown" href="#countdown" x="0" y="-20"/>
-  <g id="buttons" transform="translate(50%-36,50%+70)">
+  <text id="clock" x="50%" y="20" text-anchor="middle" fill="white" font-size="24" font-family="System-Light">00:00</text>
+  <rect id="background" x="0" y="30" width="100%" height="100%" fill="#B74949"/>
+  <g id="session-counter" transform="translate(50%,45)">
+    <use id="circle1" href="#fillable-circle" x="0" y="0" visibility="hidden"/>
+    <use id="circle2" href="#fillable-circle" x="20" y="0" visibility="hidden"/>
+    <use id="circle3" href="#fillable-circle" x="40" y="0" visibility="hidden"/>
+    <use id="circle4" href="#fillable-circle" x="60" y="0" visibility="hidden"/>
+    <use id="circle5" href="#fillable-circle" x="80" y="0" visibility="hidden"/>
+    <use id="circle6" href="#fillable-circle" x="100" y="0" visibility="hidden"/>
+    <use id="circle7" href="#fillable-circle" x="120" y="0" visibility="hidden"/>
+    <use id="circle8" href="#fillable-circle" x="140" y="0" visibility="hidden"/>
+  </g>
+  <use id="countdown" href="#countdown" x="0" y="-34"/>
+  <g id="buttons" transform="translate(50%-36,50%+45)">
     <use id="play-button" href="#icon-button" fill="white" class="medium-button play-button" x="0" y="0"/>
     <use id="pause-button" href="#icon-button" fill="white" class="medium-button pause-button" x="0" y="0" display="none"/>
     <!--use id="skip-button" href="#icon-button" fill="white" class="medium-button skip-button" x="50%+36" y="50%+70"/-->
@@ -9,4 +20,5 @@
       <image fill="white" href="icons/skip.png" x="90" y="11" width="50" height="50"/>
     </g>
   </g>
+  <text id="current-state" x="50%" y="100%-20" text-anchor="middle" fill="white" font-size="24" font-family="System-Regular" text-length="20">Time</text>
 </svg>

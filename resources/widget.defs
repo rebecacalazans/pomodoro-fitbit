@@ -6,17 +6,17 @@
     <link rel="import" href="/mnt/sysassets/widgets/icon_button.defs" />
   </defs>
   
-  <symbol id="fillable-circle">
+  <symbol id="fillable-circle" class="fillable-circle">
     <arc id="arc" x="0" y="0" width="12" height="12" fill="white" arc-width="2" start-angle="0" />
-    <circle id="center-circle" cx="6" cy="6" r="6" fill="white"/>
+    <circle id="inner-circle" cx="6" cy="6" r="6" fill="white" visibility="hidden"/>
   </symbol>
   
   <symbol id="countdown">
-    <text id="time-left" x="50%" y = "50%" text-anchor="middle" fill="white" font-size="42" font-family="System-Bold" text-length="32"/>
-    <arc id="progress-bar" x="50%-63" y="50%-63-14" width="126" height="126" fill="white" arc-width="8" start-angle="0" />
+    <text id="time-left" x="50%" y = "50%+12" text-anchor="middle" fill="white" font-size="36" font-family="System-Bold" text-length="32"/>
+    <arc id="progress-bar" x="50%-63" y="50%-63" width="126" height="126" fill="white" arc-width="8" start-angle="0" />
     <!--arc id="external-line" x="50%-90" y="50%-90-20" width="180" height="180" fill="white" arc-width="1" start-angle="0" sweep-angle="360" /-->
     <!--arc id="internal-line" x="50%-83" y="50%-83-20" width="166" height="166" fill="white" arc-width="1" start-angle="0" sweep-angle="360" /-->
-    <arc id="progress-bar-middle" x="50%-60" y="50%-60-14" width="120" height="120" fill="white" arc-width="2" start-angle="0" sweep-angle="360" />
+    <arc id="progress-bar-middle" x="50%-60" y="50%-60" width="120" height="120" fill="white" arc-width="2" start-angle="0" sweep-angle="360" />
   </symbol>
 </svg>
 
